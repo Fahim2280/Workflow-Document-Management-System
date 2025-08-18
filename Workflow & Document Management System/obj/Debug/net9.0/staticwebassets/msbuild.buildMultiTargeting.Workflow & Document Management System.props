@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Workflow &amp; Document Management System.props" />
+</Project>

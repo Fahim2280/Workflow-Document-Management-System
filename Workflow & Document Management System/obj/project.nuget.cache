@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "PoWEsLtEM14=",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\Electric-Garage-Management-System\\Workflow & Document Management System\\Workflow & Document Management System.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kfahi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.2\\microsoft.aspnetcore.openapi.9.0.2.nupkg.sha512",
+    "C:\\Users\\kfahi\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\kfahi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\9.0.3\\swashbuckle.aspnetcore.swaggerui.9.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

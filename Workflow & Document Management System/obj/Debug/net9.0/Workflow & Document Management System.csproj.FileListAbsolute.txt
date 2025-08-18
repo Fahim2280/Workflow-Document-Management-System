@@ -1,0 +1,36 @@
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\bin\Debug\net9.0\appsettings.Development.json
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\bin\Debug\net9.0\appsettings.json
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\bin\Debug\net9.0\Workflow & Document Management System.staticwebassets.endpoints.json
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\bin\Debug\net9.0\Workflow & Document Management System.exe
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\bin\Debug\net9.0\Workflow & Document Management System.deps.json
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\bin\Debug\net9.0\Workflow & Document Management System.runtimeconfig.json
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\bin\Debug\net9.0\Workflow & Document Management System.dll
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\bin\Debug\net9.0\Workflow & Document Management System.pdb
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\Workflow & Document Management System.csproj.AssemblyReference.cache
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\Workflow & Document Management System.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\Workflow & Document Management System.AssemblyInfoInputs.cache
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\Workflow & Document Management System.AssemblyInfo.cs
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\Workflow & Document Management System.csproj.CoreCompileInputs.cache
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\Workflow & Document Management System.MvcApplicationPartsAssemblyInfo.cs
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\Workflow & Document Management System.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\Workflow & Document Management System.sourcelink.json
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\scopedcss\bundle\Workflow & Document Management System.styles.css
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\staticwebassets.build.json
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\staticwebassets.development.json
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\staticwebassets\msbuild.Workflow & Document Management System.Microsoft.AspNetCore.StaticWebAssets.props
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\staticwebassets\msbuild.Workflow & Document Management System.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\staticwebassets\msbuild.build.Workflow & Document Management System.props
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Workflow & Document Management System.props
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Workflow & Document Management System.props
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\staticwebassets.pack.json
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\Workflow.E4A7542D.Up2Date
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\Workflow & Document Management System.dll
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\refint\Workflow & Document Management System.dll
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\Workflow & Document Management System.pdb
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\Workflow & Document Management System.genruntimeconfig.cache
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\obj\Debug\net9.0\ref\Workflow & Document Management System.dll
+D:\GitHub\Electric-Garage-Management-System\Workflow & Document Management System\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
