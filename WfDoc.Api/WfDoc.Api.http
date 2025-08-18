@@ -1,0 +1,6 @@
+@WfDoc.Api_HostAddress = http://localhost:5119
+
+GET {{WfDoc.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
