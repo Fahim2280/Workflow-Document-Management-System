@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\Electric-Garage-Management-System\\Workflow & Document Management System\\Workflow & Document Management System.csproj": {}
+    "D:\\GitHub\\Workflow-Document-Management-System\\Workflow & Document Management System\\Workflow & Document Management System.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\Electric-Garage-Management-System\\Workflow & Document Management System\\Workflow & Document Management System.csproj": {
+    "D:\\GitHub\\Workflow-Document-Management-System\\Workflow & Document Management System\\Workflow & Document Management System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Electric-Garage-Management-System\\Workflow & Document Management System\\Workflow & Document Management System.csproj",
+        "projectUniqueName": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow & Document Management System\\Workflow & Document Management System.csproj",
         "projectName": "Workflow & Document Management System",
-        "projectPath": "D:\\GitHub\\Electric-Garage-Management-System\\Workflow & Document Management System\\Workflow & Document Management System.csproj",
+        "projectPath": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow & Document Management System\\Workflow & Document Management System.csproj",
         "packagesPath": "C:\\Users\\kfahi\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Electric-Garage-Management-System\\Workflow & Document Management System\\obj\\",
+        "outputPath": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow & Document Management System\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -56,9 +56,31 @@
               "target": "Package",
               "version": "[9.0.2, )"
             },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.0-preview.7.25380.108, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[10.0.0-preview.7.25380.108, )"
+            },
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
             }
           },
           "imports": [

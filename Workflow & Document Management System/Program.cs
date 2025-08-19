@@ -1,5 +1,6 @@
 
 using Microsoft.Extensions.Options;
+using Workflow___Document_Management_System.SERVICE;
 
 namespace Workflow___Document_Management_System
 {
@@ -9,9 +10,35 @@ namespace Workflow___Document_Management_System
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-
+            // Add services
             builder.Services.AddControllers();
+            builder.Services.AddHttpContextAccessor();
+
+            // Add session support
+            builder.Services.AddDistributedMemoryCache();
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
+
+            // Register custom services
+            builder.Services.AddScoped<AdminRepository>(provider =>
+                new AdminRepository(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddScoped<SessionService>();
+            builder.Services.AddScoped<AdminService>();
+
+            // Add CORS if needed
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", policy =>
+                {
+                    policy.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                          .AllowAnyHeader();
+                });
+            });
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
 
@@ -21,6 +48,7 @@ namespace Workflow___Document_Management_System
             if (app.Environment.IsDevelopment())
             {
                 app.MapOpenApi();
+                app.UseDeveloperExceptionPage();
                 app.UseSwaggerUI(options =>
                 {
                     options.SwaggerEndpoint("/openapi/v1.json", "Workflow Document Management System API V1");                 
@@ -31,6 +59,9 @@ namespace Workflow___Document_Management_System
 
             app.UseAuthorization();
 
+            app.UseRouting();
+            app.UseCors("AllowAll");
+            app.UseSession(); // Important: Add session middleware
 
             app.MapControllers();
 

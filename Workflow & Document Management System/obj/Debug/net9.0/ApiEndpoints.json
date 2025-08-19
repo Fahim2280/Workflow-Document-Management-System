@@ -1,5 +1,97 @@
 [
   {
+    "ContainingType": "Workflow___Document_Management_System.Controllers.AdminController",
+    "Method": "CreateAdmin",
+    "RelativePath": "api/Admin/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createAdminDto",
+        "Type": "Workflow___Document_Management_System.DTOs.CreateAdminDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Workflow___Document_Management_System.Controllers.AdminController",
+    "Method": "CreateFirstAdmin",
+    "RelativePath": "api/Admin/create-first",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Workflow___Document_Management_System.Controllers.AdminController",
+    "Method": "GetCurrentAdmin",
+    "RelativePath": "api/Admin/current",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Workflow___Document_Management_System.Controllers.AdminController",
+    "Method": "GetAllAdmins",
+    "RelativePath": "api/Admin/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Workflow___Document_Management_System.Controllers.AdminController",
+    "Method": "Login",
+    "RelativePath": "api/Admin/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "Workflow___Document_Management_System.DTOs.AdminLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Workflow___Document_Management_System.Controllers.AdminController",
+    "Method": "Logout",
+    "RelativePath": "api/Admin/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Workflow___Document_Management_System.Controllers.AdminController",
+    "Method": "TestDatabase",
+    "RelativePath": "api/Admin/test-db",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Workflow___Document_Management_System.Controllers.AdminController",
+    "Method": "TestDirectQuery",
+    "RelativePath": "api/Admin/test-direct",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Workflow___Document_Management_System.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
