@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "CVW8s2fV/ktBfWbcAOEXPQTQh1Hvlfe8rGQgymgKCgk=",
+  "Hash": "t5wlZeSBdoMnK9tzWt5bGVRwBGjq62fDG0c8I3N4VWk=",
   "Source": "Workflow & Document Management System",
   "BasePath": "_content/Workflow & Document Management System",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Workflow & Document Management System\\wwwroot",
+      "Source": "Workflow & Document Management System",
+      "ContentRoot": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow & Document Management System\\wwwroot\\",
+      "BasePath": "_content/Workflow & Document Management System",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }

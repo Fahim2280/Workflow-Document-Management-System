@@ -125,3 +125,6 @@ D:\GitHub\Workflow-Document-Management-System\Workflow & Document Management Sys
 D:\GitHub\Workflow-Document-Management-System\Workflow & Document Management System\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\GitHub\Workflow-Document-Management-System\Workflow & Document Management System\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
 D:\GitHub\Workflow-Document-Management-System\Workflow & Document Management System\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\GitHub\Workflow-Document-Management-System\Workflow & Document Management System\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\GitHub\Workflow-Document-Management-System\Workflow & Document Management System\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\GitHub\Workflow-Document-Management-System\Workflow & Document Management System\bin\Debug\net9.0\Workflow & Document Management System.staticwebassets.runtime.json
