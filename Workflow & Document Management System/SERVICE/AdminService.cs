@@ -1,4 +1,5 @@
 ﻿using Workflow___Document_Management_System.DTOs;
+using Workflow___Document_Management_System.Repository;
 
 namespace Workflow___Document_Management_System.SERVICE
 {

@@ -1,0 +1,22 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\documents\b0f2492c-7abc-4059-bdc4-f2901f54284c.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Workflow &amp; Document Management System</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Workflow &amp; Document Management System</BasePath>
+      <RelativePath>uploads/documents/b0f2492c-7abc-4059-bdc4-f2901f54284c.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>by0mnn5aln</Fingerprint>
+      <Integrity>rU5zLrzZ51CehyIUqGQzXm+hCIAjsUBWB9MqDENIPpI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\documents\b0f2492c-7abc-4059-bdc4-f2901f54284c.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

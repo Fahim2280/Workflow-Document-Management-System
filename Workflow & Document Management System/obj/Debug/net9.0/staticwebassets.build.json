@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t5wlZeSBdoMnK9tzWt5bGVRwBGjq62fDG0c8I3N4VWk=",
+  "Hash": "kuDT0pqW9coogWJQTATIcBBQdC09Rus7TPxqa9JfWsc=",
   "Source": "Workflow & Document Management System",
   "BasePath": "_content/Workflow & Document Management System",
   "Mode": "Default",
@@ -15,6 +15,111 @@
       "Pattern": "**"
     }
   ],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": [
+    {
+      "Identity": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow & Document Management System\\wwwroot\\uploads\\documents\\b0f2492c-7abc-4059-bdc4-f2901f54284c.pdf",
+      "SourceId": "Workflow & Document Management System",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow & Document Management System\\wwwroot\\",
+      "BasePath": "_content/Workflow & Document Management System",
+      "RelativePath": "uploads/documents/b0f2492c-7abc-4059-bdc4-f2901f54284c#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "by0mnn5aln",
+      "Integrity": "rU5zLrzZ51CehyIUqGQzXm+hCIAjsUBWB9MqDENIPpI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\documents\\b0f2492c-7abc-4059-bdc4-f2901f54284c.pdf"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/documents/b0f2492c-7abc-4059-bdc4-f2901f54284c.by0mnn5aln.pdf",
+      "AssetFile": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow & Document Management System\\wwwroot\\uploads\\documents\\b0f2492c-7abc-4059-bdc4-f2901f54284c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148283"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rU5zLrzZ51CehyIUqGQzXm+hCIAjsUBWB9MqDENIPpI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Aug 2025 17:50:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "by0mnn5aln"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/documents/b0f2492c-7abc-4059-bdc4-f2901f54284c.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rU5zLrzZ51CehyIUqGQzXm+hCIAjsUBWB9MqDENIPpI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/documents/b0f2492c-7abc-4059-bdc4-f2901f54284c.pdf",
+      "AssetFile": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow & Document Management System\\wwwroot\\uploads\\documents\\b0f2492c-7abc-4059-bdc4-f2901f54284c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148283"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rU5zLrzZ51CehyIUqGQzXm+hCIAjsUBWB9MqDENIPpI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Aug 2025 17:50:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rU5zLrzZ51CehyIUqGQzXm+hCIAjsUBWB9MqDENIPpI="
+        }
+      ]
+    }
+  ]
 }

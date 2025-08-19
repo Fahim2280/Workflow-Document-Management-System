@@ -274,6 +274,80 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Workflow___Document_Management_System.Controllers.TaskController",
+    "Method": "GetDocumentAssignmentHistory",
+    "RelativePath": "api/Task/assignment-history/{documentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Workflow___Document_Management_System.Controllers.TaskController",
+    "Method": "ProcessBatchDocumentAction",
+    "RelativePath": "api/Task/batch-action",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Workflow___Document_Management_System.DTOs.BatchDocumentActionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Workflow___Document_Management_System.Controllers.TaskController",
+    "Method": "GetMyTasks",
+    "RelativePath": "api/Task/my-tasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Workflow___Document_Management_System.Controllers.TaskController",
+    "Method": "ProcessDocumentAction",
+    "RelativePath": "api/Task/process-action",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Workflow___Document_Management_System.DTOs.ProcessDocumentActionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Workflow___Document_Management_System.Controllers.TaskController",
+    "Method": "ReassignDocument",
+    "RelativePath": "api/Task/reassign",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Workflow___Document_Management_System.DTOs.ReassignDocumentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Workflow___Document_Management_System.Controllers.WorkflowController",
     "Method": "GetWorkflowById",
     "RelativePath": "api/Workflow/{id}",
@@ -314,26 +388,5 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Workflow___Document_Management_System.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Workflow___Document_Management_System.WeatherForecast, Workflow \u0026 Document Management System, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]

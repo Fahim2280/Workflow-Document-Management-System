@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow & Document Management System\\wwwroot\\uploads\\documents\\b0f2492c-7abc-4059-bdc4-f2901f54284c.pdf",
+      "PackagePath": "staticwebassets\\uploads\\documents\\b0f2492c-7abc-4059-bdc4-f2901f54284c.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Workflow & Document Management System.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Workflow & Document Management System.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Workflow & Document Management System.props",
+      "PackagePath": "build\\Workflow & Document Management System.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Workflow & Document Management System.props",
+      "PackagePath": "buildMultiTargeting\\Workflow & Document Management System.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Workflow & Document Management System.props",
+      "PackagePath": "buildTransitive\\Workflow & Document Management System.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

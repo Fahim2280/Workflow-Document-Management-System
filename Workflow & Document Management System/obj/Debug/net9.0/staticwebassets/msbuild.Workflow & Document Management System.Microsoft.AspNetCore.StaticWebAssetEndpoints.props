@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Workflow &amp; Document Management System/uploads/documents/b0f2492c-7abc-4059-bdc4-f2901f54284c.by0mnn5aln.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\documents\b0f2492c-7abc-4059-bdc4-f2901f54284c.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"by0mnn5aln"},{"Name":"integrity","Value":"sha256-rU5zLrzZ51CehyIUqGQzXm\u002BhCIAjsUBWB9MqDENIPpI="},{"Name":"label","Value":"_content/Workflow \u0026 Document Management System/uploads/documents/b0f2492c-7abc-4059-bdc4-f2901f54284c.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"148283"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022rU5zLrzZ51CehyIUqGQzXm\u002BhCIAjsUBWB9MqDENIPpI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Aug 2025 17:50:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Workflow &amp; Document Management System/uploads/documents/b0f2492c-7abc-4059-bdc4-f2901f54284c.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\documents\b0f2492c-7abc-4059-bdc4-f2901f54284c.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rU5zLrzZ51CehyIUqGQzXm\u002BhCIAjsUBWB9MqDENIPpI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"148283"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022rU5zLrzZ51CehyIUqGQzXm\u002BhCIAjsUBWB9MqDENIPpI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Aug 2025 17:50:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

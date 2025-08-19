@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Workflow & Document Management System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84d12cbdcc9a7d545548cbc0ddae1984105bf314")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+610ba7526a05c647675e02586750c97412d6a2e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Workflow & Document Management System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Workflow & Document Management System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

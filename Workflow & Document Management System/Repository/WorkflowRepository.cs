@@ -2,7 +2,7 @@
 using System.Data.SqlClient;
 using Workflow___Document_Management_System.DTOs;
 
-namespace Workflow___Document_Management_System.SERVICE
+namespace Workflow___Document_Management_System.Repository
 {
     public class WorkflowRepository
     {

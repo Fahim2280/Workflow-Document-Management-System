@@ -3,7 +3,7 @@ using System.Data.SqlClient;
 using Workflow___Document_Management_System.DTOs;
 using Workflow___Document_Management_System.Models;
 
-namespace Workflow___Document_Management_System.SERVICE
+namespace Workflow___Document_Management_System.Repository
 {
     public class AdminRepository
     {

@@ -1,3 +1,4 @@
+
 using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
@@ -5,6 +6,7 @@ using Workflow___Document_Management_System.SERVICE;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Microsoft.AspNetCore.Mvc;
+using Workflow___Document_Management_System.Repository;
 
 namespace Workflow___Document_Management_System
 {
@@ -26,15 +28,15 @@ namespace Workflow___Document_Management_System
             // Configure form options for file uploads
             builder.Services.Configure<FormOptions>(options =>
             {
-                options.KeyLengthLimit = int.MaxValue; // Remove key length limit
+                options.KeyLengthLimit = int.MaxValue;
                 options.ValueCountLimit = 1024;
-                options.ValueLengthLimit = int.MaxValue; // Remove value length limit
+                options.ValueLengthLimit = int.MaxValue;
                 options.MultipartBodyLengthLimit = 1024 * 1024 * 100; // 100MB for file uploads
-                options.MultipartHeadersCountLimit = 32; // Increase header count
-                options.MultipartHeadersLengthLimit = 65536; // Increase header length
+                options.MultipartHeadersCountLimit = 32;
+                options.MultipartHeadersLengthLimit = 65536;
                 options.BufferBody = true;
                 options.BufferBodyLengthLimit = 1024 * 1024 * 100; // 100MB
-                options.MultipartBoundaryLengthLimit = 128; // Set boundary limit
+                options.MultipartBoundaryLengthLimit = 128;
             });
 
             // Configure Kestrel server limits
@@ -54,24 +56,36 @@ namespace Workflow___Document_Management_System
                 options.Cookie.IsEssential = true;
             });
 
-            // Register custom services
-            builder.Services.AddScoped<AdminRepository>(provider =>
-                new AdminRepository(builder.Configuration.GetConnectionString("DefaultConnection")));
+            // Register connection string
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+            // Register existing repositories
+            builder.Services.AddScoped<AdminRepository>(provider => new AdminRepository(connectionString));
+            builder.Services.AddScoped<DocumentRepository>(provider => new DocumentRepository(connectionString));
+            builder.Services.AddScoped<WorkflowRepository>(provider => new WorkflowRepository(connectionString));
+            builder.Services.AddScoped<DocumentTypeRepository>(provider => new DocumentTypeRepository(connectionString));
+            builder.Services.AddScoped<FileRepository>();
+
+            // Register enhanced repositories for task assignment
+            builder.Services.AddScoped<TaskAssignmentRepository>(provider => new TaskAssignmentRepository(connectionString));
+            
+            builder.Services.AddScoped<WorkflowAnalyticsRepository>(provider => new WorkflowAnalyticsRepository(connectionString));
+
+            // Register existing services
             builder.Services.AddScoped<SessionService>();
             builder.Services.AddScoped<AdminService>();
-            builder.Services.AddScoped<DashboardService>();
-            builder.Services.AddScoped<WorkflowService>();
             builder.Services.AddScoped<DocumentService>();
             builder.Services.AddScoped<DocumentTypeService>();
+            builder.Services.AddScoped<WorkflowService>();
             builder.Services.AddScoped<FileService>();
             builder.Services.AddScoped<ValidationService>();
-            builder.Services.AddScoped<DocumentRepository>(provider =>
-                new DocumentRepository(builder.Configuration.GetConnectionString("DefaultConnection")));
-            builder.Services.AddScoped<WorkflowRepository>(provider =>
-                new WorkflowRepository(builder.Configuration.GetConnectionString("DefaultConnection")));
-            builder.Services.AddScoped<DocumentTypeRepository>(provider =>
-                new DocumentTypeRepository(builder.Configuration.GetConnectionString("DefaultConnection")));
-            builder.Services.AddScoped<FileRepository>();
+
+            // Register enhanced services for task assignment
+            builder.Services.AddScoped<TaskAssignmentService>();
+            builder.Services.AddScoped<EnhancedValidationService>();
+
+            // Keep original DashboardService for backward compatibility
+            builder.Services.AddScoped<DashboardService>();
 
             // Add CORS if needed
             builder.Services.AddCors(options =>
@@ -87,10 +101,24 @@ namespace Workflow___Document_Management_System
             // Configure Swagger - MUST be before app.Build()
             builder.Services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Document Management API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Enhanced Document Management API with Task Assignment",
+                    Version = "v2.0",
+                    Description = "Document Management System with Workflow Task Assignment, Dashboard, and Analytics"
+                });
 
                 // Configure file upload for Swagger
                 c.OperationFilter<FileUploadOperationFilter>();
+
+                // Add security definition for session-based auth (if needed later)
+                c.AddSecurityDefinition("Session", new OpenApiSecurityScheme
+                {
+                    Description = "Session-based authentication",
+                    Name = "Session",
+                    In = ParameterLocation.Cookie,
+                    Type = SecuritySchemeType.ApiKey
+                });
             });
 
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
@@ -108,13 +136,20 @@ namespace Workflow___Document_Management_System
                 app.UseSwagger();
                 app.UseSwaggerUI(options =>
                 {
-                    options.SwaggerEndpoint("/swagger/v1/swagger.json", "Document Management API V1");
-                    options.RoutePrefix = "swagger"; // Set Swagger UI at /swagger
+                    options.SwaggerEndpoint("/swagger/v1/swagger.json", "Enhanced Document Management API V2.0");
+                    options.RoutePrefix = "swagger";
+                    options.DocumentTitle = "Document Management System - API Documentation";
+                    options.DefaultModelsExpandDepth(-1); // Hide models section by default
+                    options.DisplayOperationId();
+                    options.DisplayRequestDuration();
                 });
             }
 
             // Ensure upload directories exist
             CreateUploadDirectories(app.Environment);
+
+            // Initialize database if needed
+            InitializeDatabase(connectionString);
 
             app.UseHttpsRedirection();
             app.UseStaticFiles(); // Important: Enable static files for wwwroot access
@@ -122,7 +157,26 @@ namespace Workflow___Document_Management_System
             app.UseCors("AllowAll");
             app.UseAuthorization();
             app.UseSession(); // Important: Add session middleware
+
+            // Map controllers
             app.MapControllers();
+
+            // Add some helpful startup information
+            app.Lifetime.ApplicationStarted.Register(() =>
+            {
+                var logger = app.Services.GetService<ILogger<Program>>();
+                logger?.LogInformation("=== Enhanced Document Management System Started ===");
+                logger?.LogInformation("Features: Task Assignment, Dashboard Analytics, Workflow Progress");
+                logger?.LogInformation("Swagger UI available at: /swagger");
+                logger?.LogInformation("API Endpoints:");
+                logger?.LogInformation("  - Admin Dashboard: GET /api/EnhancedDashboard/admin");
+                logger?.LogInformation("  - My Tasks: GET /api/Task/my-tasks");
+                logger?.LogInformation("  - Process Document: POST /api/Task/process-action");
+                logger?.LogInformation("  - Reassign Document: POST /api/Task/reassign");
+                logger?.LogInformation("  - Workflow Analytics: GET /api/EnhancedDashboard/workflow-analytics");
+                logger?.LogInformation("============================================");
+            });
+
             app.Run();
         }
 
@@ -147,6 +201,20 @@ namespace Workflow___Document_Management_System
             catch (Exception ex)
             {
                 Console.WriteLine($"Warning: Could not create upload directories: {ex.Message}");
+            }
+        }
+
+        private static void InitializeDatabase(string connectionString)
+        {
+            try
+            {
+                // You can add database initialization logic here
+                // For example, check if required tables exist, run migrations, etc.
+                Console.WriteLine("Database initialization check completed");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Warning: Database initialization failed: {ex.Message}");
             }
         }
     }
