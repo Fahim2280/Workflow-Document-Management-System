@@ -17,16 +17,6 @@
   },
   {
     "ContainingType": "Workflow___Document_Management_System.Controllers.AdminController",
-    "Method": "CreateFirstAdmin",
-    "RelativePath": "api/Admin/create-first",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Workflow___Document_Management_System.Controllers.AdminController",
     "Method": "GetCurrentAdmin",
     "RelativePath": "api/Admin/current",
     "HttpMethod": "GET",
@@ -73,18 +63,8 @@
   },
   {
     "ContainingType": "Workflow___Document_Management_System.Controllers.AdminController",
-    "Method": "TestDatabase",
-    "RelativePath": "api/Admin/test-db",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Workflow___Document_Management_System.Controllers.AdminController",
-    "Method": "TestDirectQuery",
-    "RelativePath": "api/Admin/test-direct",
+    "Method": "TestEndpoint",
+    "RelativePath": "api/Admin/test",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

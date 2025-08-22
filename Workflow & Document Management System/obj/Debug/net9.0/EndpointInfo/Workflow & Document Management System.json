@@ -6,42 +6,6 @@
     "version": "v2.0"
   },
   "paths": {
-    "/api/Admin/test-db": {
-      "get": {
-        "tags": [
-          "Admin"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Admin/test-direct": {
-      "get": {
-        "tags": [
-          "Admin"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Admin/create-first": {
-      "post": {
-        "tags": [
-          "Admin"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/Admin/login": {
       "post": {
         "tags": [
@@ -129,6 +93,18 @@
       }
     },
     "/api/Admin/current": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/test": {
       "get": {
         "tags": [
           "Admin"

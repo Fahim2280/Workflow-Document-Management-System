@@ -13,163 +13,51 @@ namespace Workflow___Document_Management_System.Controllers
         private readonly AdminService _adminService;
         private readonly SessionService _sessionService;
         private readonly IConfiguration _configuration;
+        private readonly ILogger<AdminController> _logger;
 
-        public AdminController(AdminService adminService, SessionService sessionService, IConfiguration configuration)
+        public AdminController(AdminService adminService, SessionService sessionService, IConfiguration configuration, ILogger<AdminController> logger)
         {
             _adminService = adminService;
             _sessionService = sessionService;
             _configuration = configuration;
+            _logger = logger;
         }
 
-        // ===== DEBUG ENDPOINT 1: Test Database Connection =====
-        [HttpGet("test-db")]
-        public async Task<IActionResult> TestDatabase()
-        {
-            try
-            {
-                var connectionString = _configuration.GetConnectionString("DefaultConnection");
-                using var connection = new SqlConnection(connectionString);
-                await connection.OpenAsync();
-
-                // Test if table exists
-                using var command = new SqlCommand("SELECT COUNT(*) FROM Admins", connection);
-                var count = await command.ExecuteScalarAsync();
-
-                return Ok(new
-                {
-                    message = "Database connection successful!",
-                    adminCount = count,
-                    connectionString = connectionString?.Split(';')[0] // Only show server part
-                });
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(new
-                {
-                    message = "Database connection failed",
-                    error = ex.Message
-                });
-            }
-        }
-
-        // ===== DEBUG ENDPOINT 2: Direct Query Without Stored Procedure =====
-        [HttpGet("test-direct")]
-        public async Task<IActionResult> TestDirectQuery()
-        {
-            try
-            {
-                var connectionString = _configuration.GetConnectionString("DefaultConnection");
-                using var connection = new SqlConnection(connectionString);
-                await connection.OpenAsync();
-
-                using var command = new SqlCommand("SELECT AdminId, Username, Email, AccessLevel, CreatedDate, IsActive FROM Admins WHERE IsActive = 1", connection);
-                var admins = new List<object>();
-
-                using var reader = await command.ExecuteReaderAsync();
-                while (await reader.ReadAsync())
-                {
-                    admins.Add(new
-                    {
-                        AdminId = reader.GetInt32("AdminId"),
-                        Username = reader.GetString("Username"),
-                        Email = reader.GetString("Email"),
-                        AccessLevel = reader.GetString("AccessLevel"),
-                        CreatedDate = reader.GetDateTime("CreatedDate"),
-                        IsActive = reader.GetBoolean("IsActive")
-                    });
-                }
-
-                return Ok(new
-                {
-                    admins = admins,
-                    count = admins.Count,
-                    message = "Direct query successful"
-                });
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(new
-                {
-                    message = "Direct query failed",
-                    error = ex.Message
-                });
-            }
-        }
-
-        // ===== DEBUG ENDPOINT 3: Create First Admin =====
-        [HttpPost("create-first")]
-        public async Task<IActionResult> CreateFirstAdmin()
-        {
-            try
-            {
-                var connectionString = _configuration.GetConnectionString("DefaultConnection");
-                using var connection = new SqlConnection(connectionString);
-                await connection.OpenAsync();
-
-                // Check if any admin exists
-                using var checkCommand = new SqlCommand("SELECT COUNT(*) FROM Admins", connection);
-                var count = Convert.ToInt32(await checkCommand.ExecuteScalarAsync());
-
-                if (count == 0)
-                {
-                    // Insert first admin with plain password
-                    using var insertCommand = new SqlCommand(@"
-                        INSERT INTO Admins (Username, Email, PasswordHash, AccessLevel, CreatedByAdminId, IsActive)
-                        VALUES ('admin', 'admin@company.com', '123', 'Read-Write', 1, 1)", connection);
-
-                    await insertCommand.ExecuteNonQueryAsync();
-
-                    return Ok(new
-                    {
-                        message = "First admin created successfully!",
-                        username = "admin",
-                        password = "123",
-                        note = "You can now login with username 'admin' and password '123'"
-                    });
-                }
-                else
-                {
-                    return Ok(new
-                    {
-                        message = $"Admin(s) already exist ({count} found)",
-                        note = "Use test-direct endpoint to see existing admins"
-                    });
-                }
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(new
-                {
-                    message = "Failed to create first admin",
-                    error = ex.Message
-                });
-            }
-        }
-
-        // ===== ORIGINAL ENDPOINTS =====
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] AdminLoginDto loginDto)
         {
             try
             {
+                _logger.LogInformation($"Login attempt for username: {loginDto?.Username}");
+
                 if (string.IsNullOrEmpty(loginDto.Username) || string.IsNullOrEmpty(loginDto.Password))
-                    return BadRequest("Username and password are required");
+                {
+                    _logger.LogWarning("Login failed: Username or password is empty");
+                    return BadRequest(new { message = "Username and password are required" });
+                }
 
                 var success = await _adminService.LoginAsync(loginDto);
                 if (success)
                 {
+                    var username = _sessionService.GetCurrentUsername();
+                    var accessLevel = _sessionService.GetCurrentAccessLevel();
+
+                    _logger.LogInformation($"Login successful for user: {username} with access level: {accessLevel}");
+
                     return Ok(new
                     {
                         message = "Login successful",
-                        username = _sessionService.GetCurrentUsername(),
-                        accessLevel = _sessionService.GetCurrentAccessLevel()
+                        username = username,
+                        accessLevel = accessLevel
                     });
                 }
 
-                return Unauthorized("Invalid username or password");
+                _logger.LogWarning($"Login failed for username: {loginDto.Username}");
+                return Unauthorized(new { message = "Invalid username or password" });
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, $"Login error for username: {loginDto?.Username}");
                 return BadRequest(new
                 {
                     message = "Login error",
@@ -183,25 +71,41 @@ namespace Workflow___Document_Management_System.Controllers
         {
             try
             {
+                _logger.LogInformation($"Create admin attempt for username: {createAdminDto?.Username}");
+
                 if (!_sessionService.IsLoggedIn())
-                    return Unauthorized("You must be logged in");
+                {
+                    _logger.LogWarning("Create admin failed: User not logged in");
+                    return Unauthorized(new { message = "You must be logged in" });
+                }
 
                 if (!_sessionService.HasWriteAccess())
+                {
+                    _logger.LogWarning("Create admin failed: User doesn't have write access");
                     return Forbid("You don't have permission to create admins");
+                }
 
                 if (string.IsNullOrEmpty(createAdminDto.Username) ||
                     string.IsNullOrEmpty(createAdminDto.Password) ||
                     string.IsNullOrEmpty(createAdminDto.Email))
-                    return BadRequest("All fields are required");
+                {
+                    _logger.LogWarning("Create admin failed: Required fields missing");
+                    return BadRequest(new { message = "All fields are required" });
+                }
 
                 var success = await _adminService.CreateAdminAsync(createAdminDto);
                 if (success)
+                {
+                    _logger.LogInformation($"Admin created successfully: {createAdminDto.Username}");
                     return Ok(new { message = "Admin created successfully" });
+                }
 
-                return BadRequest("Failed to create admin");
+                _logger.LogWarning($"Failed to create admin: {createAdminDto.Username}");
+                return BadRequest(new { message = "Failed to create admin" });
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, $"Create admin error for username: {createAdminDto?.Username}");
                 return BadRequest(new
                 {
                     message = "Create admin error",
@@ -215,7 +119,12 @@ namespace Workflow___Document_Management_System.Controllers
         {
             try
             {
+                _logger.LogInformation("Getting all admins list");
+
                 var admins = await _adminService.GetAllAdminsAsync();
+
+                _logger.LogInformation($"Retrieved {admins.Count} admins from database");
+
                 return Ok(new
                 {
                     admins = admins,
@@ -225,7 +134,8 @@ namespace Workflow___Document_Management_System.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(new
+                _logger.LogError(ex, "Error getting admin list");
+                return StatusCode(500, new
                 {
                     message = "Error getting admin list",
                     error = ex.Message,
@@ -237,21 +147,61 @@ namespace Workflow___Document_Management_System.Controllers
         [HttpPost("logout")]
         public IActionResult Logout()
         {
-            _adminService.Logout();
-            return Ok(new { message = "Logged out successfully" });
+            try
+            {
+                var username = _sessionService.GetCurrentUsername();
+                _logger.LogInformation($"Logout for user: {username}");
+
+                _adminService.Logout();
+                return Ok(new { message = "Logged out successfully" });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Logout error");
+                return Ok(new { message = "Logged out successfully" }); // Always return success for logout
+            }
         }
 
         [HttpGet("current")]
         public IActionResult GetCurrentAdmin()
         {
-            if (!_sessionService.IsLoggedIn())
-                return Unauthorized("Not logged in");
+            try
+            {
+                if (!_sessionService.IsLoggedIn())
+                {
+                    _logger.LogWarning("Get current admin failed: User not logged in");
+                    return Unauthorized(new { message = "Not logged in" });
+                }
 
+                var username = _sessionService.GetCurrentUsername();
+                var accessLevel = _sessionService.GetCurrentAccessLevel();
+                var hasWriteAccess = _sessionService.HasWriteAccess();
+
+                _logger.LogInformation($"Current admin info requested: {username}");
+
+                return Ok(new
+                {
+                    username = username,
+                    accessLevel = accessLevel,
+                    hasWriteAccess = hasWriteAccess
+                });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error getting current admin info");
+                return StatusCode(500, new { message = "Error getting current admin info" });
+            }
+        }
+
+        // Add a test endpoint to check if API is working
+        [HttpGet("test")]
+        public IActionResult TestEndpoint()
+        {
             return Ok(new
             {
-                username = _sessionService.GetCurrentUsername(),
-                accessLevel = _sessionService.GetCurrentAccessLevel(),
-                hasWriteAccess = _sessionService.HasWriteAccess()
+                message = "Admin API is working",
+                timestamp = DateTime.Now,
+                environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")
             });
         }
     }

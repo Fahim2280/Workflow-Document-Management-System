@@ -3,24 +3,112 @@
   "WorkspaceRootPath": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\service\\enhancedvalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:service\\enhancedvalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\controllers\\workflowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:controllers\\workflowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\controllers\\documenttypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:controllers\\documenttypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\service\\taskassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:service\\taskassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\repository\\workflowanalyticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:repository\\workflowanalyticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\repository\\workflowrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:repository\\workflowrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\createworkflowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\createworkflowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\workflowresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\workflowresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\workflowdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\workflowdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\assignedadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\assignedadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\workflowanalyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\workflowanalyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\adminworkloaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\adminworkloaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\service\\documenttypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:service\\documenttypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\createdocumenttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\createdocumenttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\documenttyperesponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\documenttyperesponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\updatedocumenttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\updatedocumenttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\repository\\documenttyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:repository\\documenttyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\adminresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\adminresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\service\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:service\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\controllers\\workflowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:controllers\\workflowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\createadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\createadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\adminlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\adminlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\service\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:service\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\repository\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:repository\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\service\\enhancedvalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:service\\enhancedvalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\service\\taskassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:service\\taskassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\documentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\batchdocumentactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\batchdocumentactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\repository\\workflowanalyticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:repository\\workflowanalyticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\repository\\taskassignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,14 +145,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\batchoperationresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\batchoperationresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\adminworkloaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\adminworkloaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\workflowanalyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\workflowanalyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\tasknotificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,16 +203,8 @@
       "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\filevalidationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\repository\\documenttyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:repository\\documenttyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\service\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:service\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\service\\validationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -175,44 +243,8 @@
       "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:service\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\controllers\\documenttypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:controllers\\documenttypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\repository\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:repository\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\workflowresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\workflowresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\workflowdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\workflowdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\updatedocumenttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\updatedocumenttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\fileuploadresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\fileuploadresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\service\\workflowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:service\\workflowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\service\\documenttypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:service\\documenttypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\repository\\workflowrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:repository\\workflowrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\createdocumenttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\createdocumenttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\service\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -255,42 +287,6 @@
       "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\adminsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\assignedadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\assignedadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\createworkflowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\createworkflowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\documenttyperesponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\documenttyperesponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\service\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:service\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\createadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\createadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\adminresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\adminresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\dtos\\adminlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:dtos\\adminlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|d:\\github\\workflow-document-management-system\\workflow \u0026 document management system\\workflow \u0026 document management system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6AC8C339-4FB0-4BCA-8E59-E933ED9467D6}|Workflow \u0026 Document Management System.csproj|solutionrelative:workflow \u0026 document management system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -302,7 +298,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -322,800 +318,92 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WorkflowAnalyticsRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\WorkflowAnalyticsRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\WorkflowAnalyticsRepository.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\WorkflowAnalyticsRepository.cs",
+              "RelativeToolTip": "Repository\\WorkflowAnalyticsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:01:26.406Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "WorkflowRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\WorkflowRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\WorkflowRepository.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\WorkflowRepository.cs",
+              "RelativeToolTip": "Repository\\WorkflowRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwA8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:00:35.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WorkflowResponseDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\WorkflowResponseDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowResponseDto.cs",
+              "RelativeToolTip": "DTOs\\WorkflowResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:02:16.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "WorkflowController.cs",
               "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Controllers\\WorkflowController.cs",
               "RelativeDocumentMoniker": "Controllers\\WorkflowController.cs",
               "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Controllers\\WorkflowController.cs",
               "RelativeToolTip": "Controllers\\WorkflowController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T14:05:26.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TaskController.cs",
               "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Controllers\\TaskController.cs*",
-              "RelativeToolTip": "Controllers\\TaskController.cs*",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAgwHgAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Controllers\\TaskController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T20:01:03.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T20:01:03.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BatchDocumentActionDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\BatchDocumentActionDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\BatchDocumentActionDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\BatchDocumentActionDto.cs",
-              "RelativeToolTip": "DTOs\\BatchDocumentActionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:41:17.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAgwFMAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T10:09:14.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TaskAssignmentService.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\TaskAssignmentService.cs",
-              "RelativeDocumentMoniker": "SERVICE\\TaskAssignmentService.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\TaskAssignmentService.cs*",
-              "RelativeToolTip": "SERVICE\\TaskAssignmentService.cs*",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAgwHoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:51:57.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EnhancedValidationService.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\EnhancedValidationService.cs",
-              "RelativeDocumentMoniker": "SERVICE\\EnhancedValidationService.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\EnhancedValidationService.cs",
-              "RelativeToolTip": "SERVICE\\EnhancedValidationService.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:53:43.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DocumentResponseDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentResponseDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\DocumentResponseDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentResponseDto.cs",
-              "RelativeToolTip": "DTOs\\DocumentResponseDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:04:19.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WorkflowStatsDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowStatsDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\WorkflowStatsDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowStatsDto.cs",
-              "RelativeToolTip": "DTOs\\WorkflowStatsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAlwAwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:09:05.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AdminDashboardSummaryDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminDashboardSummaryDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\AdminDashboardSummaryDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminDashboardSummaryDto.cs",
-              "RelativeToolTip": "DTOs\\AdminDashboardSummaryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:50:18.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AdminTaskDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminTaskDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\AdminTaskDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminTaskDto.cs",
-              "RelativeToolTip": "DTOs\\AdminTaskDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:49:25.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WorkflowAnalyticsRepository.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\WorkflowAnalyticsRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\WorkflowAnalyticsRepository.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\WorkflowAnalyticsRepository.cs",
-              "RelativeToolTip": "Repository\\WorkflowAnalyticsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:48:28.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TaskAssignmentRepository.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\TaskAssignmentRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\TaskAssignmentRepository.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\TaskAssignmentRepository.cs",
-              "RelativeToolTip": "Repository\\TaskAssignmentRepository.cs",
-              "ViewState": "AgIAALUAAAAAAAAAAAAAADgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:43:46.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "WorkflowFilterDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowFilterDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\WorkflowFilterDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowFilterDto.cs",
-              "RelativeToolTip": "DTOs\\WorkflowFilterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:42:34.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TaskSearchDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\TaskSearchDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\TaskSearchDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\TaskSearchDto.cs",
-              "RelativeToolTip": "DTOs\\TaskSearchDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:42:14.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BatchOperationResultDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\BatchOperationResultDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\BatchOperationResultDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\BatchOperationResultDto.cs",
-              "RelativeToolTip": "DTOs\\BatchOperationResultDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:41:53.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AdminWorkloadDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminWorkloadDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\AdminWorkloadDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminWorkloadDto.cs",
-              "RelativeToolTip": "DTOs\\AdminWorkloadDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:40:54.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "WorkflowAnalyticsDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowAnalyticsDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\WorkflowAnalyticsDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowAnalyticsDto.cs",
-              "RelativeToolTip": "DTOs\\WorkflowAnalyticsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:40:27.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TaskNotificationDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\TaskNotificationDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\TaskNotificationDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\TaskNotificationDto.cs",
-              "RelativeToolTip": "DTOs\\TaskNotificationDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:39:58.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "WorkflowStepDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowStepDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\WorkflowStepDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowStepDto.cs",
-              "RelativeToolTip": "DTOs\\WorkflowStepDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:39:30.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "WorkflowProgressDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowProgressDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\WorkflowProgressDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowProgressDto.cs",
-              "RelativeToolTip": "DTOs\\WorkflowProgressDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:39:08.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ReassignmentHistoryDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\ReassignmentHistoryDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\ReassignmentHistoryDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\ReassignmentHistoryDto.cs",
-              "RelativeToolTip": "DTOs\\ReassignmentHistoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:37:58.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ReassignDocumentDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\ReassignDocumentDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\ReassignDocumentDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\ReassignDocumentDto.cs",
-              "RelativeToolTip": "DTOs\\ReassignDocumentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:37:35.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DocumentAssignmentHistoryDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentAssignmentHistoryDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\DocumentAssignmentHistoryDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentAssignmentHistoryDto.cs",
-              "RelativeToolTip": "DTOs\\DocumentAssignmentHistoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:37:08.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "DocumentAssignmentDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentAssignmentDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\DocumentAssignmentDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentAssignmentDto.cs",
-              "RelativeToolTip": "DTOs\\DocumentAssignmentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:36:38.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "DocumentActionResultDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentActionResultDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\DocumentActionResultDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentActionResultDto.cs",
-              "RelativeToolTip": "DTOs\\DocumentActionResultDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:36:15.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ProcessDocumentActionDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\ProcessDocumentActionDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\ProcessDocumentActionDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\ProcessDocumentActionDto.cs",
-              "RelativeToolTip": "DTOs\\ProcessDocumentActionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:35:50.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AdminDashboardDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminDashboardDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\AdminDashboardDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminDashboardDto.cs",
-              "RelativeToolTip": "DTOs\\AdminDashboardDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:35:25.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "DocumentService.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\DocumentService.cs",
-              "RelativeDocumentMoniker": "SERVICE\\DocumentService.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\DocumentService.cs",
-              "RelativeToolTip": "SERVICE\\DocumentService.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAlwDgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T14:02:22.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "DocumentTypeRepository.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\DocumentTypeRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\DocumentTypeRepository.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\DocumentTypeRepository.cs",
-              "RelativeToolTip": "Repository\\DocumentTypeRepository.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAlwCYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T14:00:00.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "FileRepository.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\FileRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\FileRepository.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\FileRepository.cs",
-              "RelativeToolTip": "Repository\\FileRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T14:01:13.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "FileValidationDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\FileValidationDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\FileValidationDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\FileValidationDto.cs",
-              "RelativeToolTip": "DTOs\\FileValidationDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:08:13.731Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-19T10:42:30.521Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "DocumentController.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Controllers\\DocumentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DocumentController.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Controllers\\DocumentController.cs",
-              "RelativeToolTip": "Controllers\\DocumentController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T14:05:59.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "SessionService.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\SessionService.cs",
-              "RelativeDocumentMoniker": "SERVICE\\SessionService.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\SessionService.cs",
-              "RelativeToolTip": "SERVICE\\SessionService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAlwCAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T10:37:44.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ValidationService.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\ValidationService.cs",
-              "RelativeDocumentMoniker": "SERVICE\\ValidationService.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\ValidationService.cs",
-              "RelativeToolTip": "SERVICE\\ValidationService.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwEYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T14:03:10.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "DocumentRepository.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\DocumentRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\DocumentRepository.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\DocumentRepository.cs",
-              "RelativeToolTip": "Repository\\DocumentRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T14:30:42.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Document.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\Document.cs",
-              "RelativeDocumentMoniker": "Models\\Document.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\Document.cs",
-              "RelativeToolTip": "Models\\Document.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:12:36.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "DocumentType.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\DocumentType.cs",
-              "RelativeDocumentMoniker": "Models\\DocumentType.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\DocumentType.cs",
-              "RelativeToolTip": "Models\\DocumentType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:11:14.75Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "CreateDocumentDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\CreateDocumentDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\CreateDocumentDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\CreateDocumentDto.cs",
-              "RelativeToolTip": "DTOs\\CreateDocumentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:03:45.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "DocumentConstants.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\DocumentConstants.cs",
-              "RelativeDocumentMoniker": "Models\\DocumentConstants.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\DocumentConstants.cs",
-              "RelativeToolTip": "Models\\DocumentConstants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:14:07.153Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "DocumentActivity.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\DocumentActivity.cs",
-              "RelativeDocumentMoniker": "Models\\DocumentActivity.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\DocumentActivity.cs",
-              "RelativeToolTip": "Models\\DocumentActivity.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAwwDEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:13:14.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "FileUploadOperationFilter.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\FileUploadOperationFilter.cs",
-              "RelativeDocumentMoniker": "SERVICE\\FileUploadOperationFilter.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\FileUploadOperationFilter.cs",
-              "RelativeToolTip": "SERVICE\\FileUploadOperationFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T16:08:23.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "FileService.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\FileService.cs",
-              "RelativeDocumentMoniker": "SERVICE\\FileService.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\FileService.cs",
-              "RelativeToolTip": "SERVICE\\FileService.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T14:03:52.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "AdminRepository.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\AdminRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\AdminRepository.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\AdminRepository.cs",
-              "RelativeToolTip": "Repository\\AdminRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T10:36:19.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 1,
               "Title": "DocumentTypeController.cs",
               "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Controllers\\DocumentTypeController.cs",
               "RelativeDocumentMoniker": "Controllers\\DocumentTypeController.cs",
               "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Controllers\\DocumentTypeController.cs",
               "RelativeToolTip": "Controllers\\DocumentTypeController.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T14:04:52.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "WorkflowResponseDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowResponseDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\WorkflowResponseDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowResponseDto.cs",
-              "RelativeToolTip": "DTOs\\WorkflowResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:02:16.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 7,
               "Title": "WorkflowDetailDto.cs",
               "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowDetailDto.cs",
               "RelativeDocumentMoniker": "DTOs\\WorkflowDetailDto.cs",
               "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowDetailDto.cs",
               "RelativeToolTip": "DTOs\\WorkflowDetailDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T13:02:43.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "UpdateDocumentTypeDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\UpdateDocumentTypeDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\UpdateDocumentTypeDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\UpdateDocumentTypeDto.cs",
-              "RelativeToolTip": "DTOs\\UpdateDocumentTypeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:01:12.339Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "FileUploadResultDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\FileUploadResultDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\FileUploadResultDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\FileUploadResultDto.cs",
-              "RelativeToolTip": "DTOs\\FileUploadResultDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:06:06.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "WorkflowService.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\WorkflowService.cs",
-              "RelativeDocumentMoniker": "SERVICE\\WorkflowService.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\WorkflowService.cs",
-              "RelativeToolTip": "SERVICE\\WorkflowService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAUwFAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T14:01:53.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "DocumentTypeService.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\DocumentTypeService.cs",
-              "RelativeDocumentMoniker": "SERVICE\\DocumentTypeService.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\DocumentTypeService.cs",
-              "RelativeToolTip": "SERVICE\\DocumentTypeService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAwCcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:58:26.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "WorkflowRepository.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\WorkflowRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\WorkflowRepository.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\WorkflowRepository.cs",
-              "RelativeToolTip": "Repository\\WorkflowRepository.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAG0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T14:00:35.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "CreateDocumentTypeDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\CreateDocumentTypeDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\CreateDocumentTypeDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\CreateDocumentTypeDto.cs",
-              "RelativeToolTip": "DTOs\\CreateDocumentTypeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:00:26.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "DashboardService.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\DashboardService.cs",
-              "RelativeDocumentMoniker": "SERVICE\\DashboardService.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\DashboardService.cs",
-              "RelativeToolTip": "SERVICE\\DashboardService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T14:02:51.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "WorkflowAdmin.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\WorkflowAdmin.cs",
-              "RelativeDocumentMoniker": "Models\\WorkflowAdmin.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\WorkflowAdmin.cs",
-              "RelativeToolTip": "Models\\WorkflowAdmin.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:12:06.312Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "Workflow.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\Workflow.cs",
-              "RelativeDocumentMoniker": "Models\\Workflow.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\Workflow.cs",
-              "RelativeToolTip": "Models\\Workflow.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAwwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:11:36.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "WorkflowSearchDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowSearchDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\WorkflowSearchDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowSearchDto.cs",
-              "RelativeToolTip": "DTOs\\WorkflowSearchDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:10:27.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "DocumentSearchDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentSearchDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\DocumentSearchDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentSearchDto.cs",
-              "RelativeToolTip": "DTOs\\DocumentSearchDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:10:08.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "DashboardStatsDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DashboardStatsDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\DashboardStatsDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DashboardStatsDto.cs",
-              "RelativeToolTip": "DTOs\\DashboardStatsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:08:35.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "AddDocumentActivityDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AddDocumentActivityDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\AddDocumentActivityDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AddDocumentActivityDto.cs",
-              "RelativeToolTip": "DTOs\\AddDocumentActivityDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:05:46.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "DocumentActivityDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentActivityDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\DocumentActivityDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentActivityDto.cs",
-              "RelativeToolTip": "DTOs\\DocumentActivityDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:05:22.153Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "DocumentDetailDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentDetailDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\DocumentDetailDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentDetailDto.cs",
-              "RelativeToolTip": "DTOs\\DocumentDetailDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:04:58.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "AdminSummaryDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminSummaryDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\AdminSummaryDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminSummaryDto.cs",
-              "RelativeToolTip": "DTOs\\AdminSummaryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:03:20.559Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 8,
               "Title": "AssignedAdminDto.cs",
               "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AssignedAdminDto.cs",
               "RelativeDocumentMoniker": "DTOs\\AssignedAdminDto.cs",
@@ -1127,92 +415,199 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 9,
+              "Title": "WorkflowAnalyticsDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowAnalyticsDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\WorkflowAnalyticsDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowAnalyticsDto.cs",
+              "RelativeToolTip": "DTOs\\WorkflowAnalyticsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:40:27.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CreateWorkflowDto.cs",
               "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\CreateWorkflowDto.cs",
               "RelativeDocumentMoniker": "DTOs\\CreateWorkflowDto.cs",
               "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\CreateWorkflowDto.cs",
               "RelativeToolTip": "DTOs\\CreateWorkflowDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T13:01:55.446Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 10,
+              "Title": "AdminWorkloadDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminWorkloadDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminWorkloadDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminWorkloadDto.cs",
+              "RelativeToolTip": "DTOs\\AdminWorkloadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:40:54.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DocumentTypeService.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\DocumentTypeService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\DocumentTypeService.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\DocumentTypeService.cs",
+              "RelativeToolTip": "SERVICE\\DocumentTypeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:58:26.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "DocumentTypeResponseDto.cs",
               "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentTypeResponseDto.cs",
               "RelativeDocumentMoniker": "DTOs\\DocumentTypeResponseDto.cs",
               "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentTypeResponseDto.cs",
               "RelativeToolTip": "DTOs\\DocumentTypeResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T13:00:47.862Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "AdminResponseDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminResponseDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\AdminResponseDto.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminResponseDto.cs",
-              "RelativeToolTip": "DTOs\\AdminResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "UpdateDocumentTypeDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\UpdateDocumentTypeDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UpdateDocumentTypeDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\UpdateDocumentTypeDto.cs",
+              "RelativeToolTip": "DTOs\\UpdateDocumentTypeDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T10:35:20.835Z"
+              "WhenOpened": "2025-08-19T13:01:12.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 15,
+              "Title": "DocumentTypeRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\DocumentTypeRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\DocumentTypeRepository.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\DocumentTypeRepository.cs",
+              "RelativeToolTip": "Repository\\DocumentTypeRepository.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAQwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:00:00.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateDocumentTypeDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\CreateDocumentTypeDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateDocumentTypeDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\CreateDocumentTypeDto.cs",
+              "RelativeToolTip": "DTOs\\CreateDocumentTypeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:00:26.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
               "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAOYAAAAAAAAAAAAwwAEBAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAQwM8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T10:41:28.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "AdminService.cs",
-              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\AdminService.cs",
-              "RelativeDocumentMoniker": "SERVICE\\AdminService.cs",
-              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\AdminService.cs",
-              "RelativeToolTip": "SERVICE\\AdminService.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAwwDcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T10:40:01.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 21,
               "Title": "AdminLoginDto.cs",
               "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminLoginDto.cs",
               "RelativeDocumentMoniker": "DTOs\\AdminLoginDto.cs",
               "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminLoginDto.cs",
               "RelativeToolTip": "DTOs\\AdminLoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T10:34:41.008Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 22,
+              "Title": "SessionService.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\SessionService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\SessionService.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\SessionService.cs",
+              "RelativeToolTip": "SERVICE\\SessionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T10:37:44.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4BAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T10:09:14.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\AdminService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\AdminService.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\AdminService.cs",
+              "RelativeToolTip": "SERVICE\\AdminService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T10:40:01.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminResponseDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminResponseDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminResponseDto.cs",
+              "RelativeToolTip": "DTOs\\AdminResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T10:35:20.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "CreateAdminDto.cs",
               "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\CreateAdminDto.cs",
               "RelativeDocumentMoniker": "DTOs\\CreateAdminDto.cs",
               "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\CreateAdminDto.cs",
               "RelativeToolTip": "DTOs\\CreateAdminDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T10:35:02.468Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 23,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\AdminRepository.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\AdminRepository.cs",
+              "RelativeToolTip": "Repository\\AdminRepository.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T10:36:19.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "Admin.cs",
               "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "Models\\Admin.cs",
@@ -1224,7 +619,559 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 25,
+              "Title": "EnhancedValidationService.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\EnhancedValidationService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\EnhancedValidationService.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\EnhancedValidationService.cs",
+              "RelativeToolTip": "SERVICE\\EnhancedValidationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:53:43.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TaskAssignmentService.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\TaskAssignmentService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\TaskAssignmentService.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\TaskAssignmentService.cs",
+              "RelativeToolTip": "SERVICE\\TaskAssignmentService.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAgwHoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:51:57.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BatchDocumentActionDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\BatchDocumentActionDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\BatchDocumentActionDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\BatchDocumentActionDto.cs",
+              "RelativeToolTip": "DTOs\\BatchDocumentActionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:41:17.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DocumentResponseDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\DocumentResponseDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentResponseDto.cs",
+              "RelativeToolTip": "DTOs\\DocumentResponseDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:04:19.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "WorkflowStatsDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowStatsDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\WorkflowStatsDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowStatsDto.cs",
+              "RelativeToolTip": "DTOs\\WorkflowStatsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAlwAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:09:05.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AdminDashboardSummaryDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminDashboardSummaryDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminDashboardSummaryDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminDashboardSummaryDto.cs",
+              "RelativeToolTip": "DTOs\\AdminDashboardSummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:50:18.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AdminTaskDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminTaskDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminTaskDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminTaskDto.cs",
+              "RelativeToolTip": "DTOs\\AdminTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:49:25.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TaskAssignmentRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\TaskAssignmentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\TaskAssignmentRepository.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\TaskAssignmentRepository.cs",
+              "RelativeToolTip": "Repository\\TaskAssignmentRepository.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAAADgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:43:46.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "WorkflowFilterDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowFilterDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\WorkflowFilterDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowFilterDto.cs",
+              "RelativeToolTip": "DTOs\\WorkflowFilterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:42:34.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TaskSearchDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\TaskSearchDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TaskSearchDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\TaskSearchDto.cs",
+              "RelativeToolTip": "DTOs\\TaskSearchDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:42:14.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BatchOperationResultDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\BatchOperationResultDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\BatchOperationResultDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\BatchOperationResultDto.cs",
+              "RelativeToolTip": "DTOs\\BatchOperationResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:41:53.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TaskNotificationDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\TaskNotificationDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TaskNotificationDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\TaskNotificationDto.cs",
+              "RelativeToolTip": "DTOs\\TaskNotificationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:39:58.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "WorkflowStepDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowStepDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\WorkflowStepDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowStepDto.cs",
+              "RelativeToolTip": "DTOs\\WorkflowStepDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:39:30.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "WorkflowProgressDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowProgressDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\WorkflowProgressDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowProgressDto.cs",
+              "RelativeToolTip": "DTOs\\WorkflowProgressDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:39:08.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ReassignmentHistoryDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\ReassignmentHistoryDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ReassignmentHistoryDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\ReassignmentHistoryDto.cs",
+              "RelativeToolTip": "DTOs\\ReassignmentHistoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:37:58.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ReassignDocumentDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\ReassignDocumentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ReassignDocumentDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\ReassignDocumentDto.cs",
+              "RelativeToolTip": "DTOs\\ReassignDocumentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:37:35.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DocumentAssignmentHistoryDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentAssignmentHistoryDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\DocumentAssignmentHistoryDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentAssignmentHistoryDto.cs",
+              "RelativeToolTip": "DTOs\\DocumentAssignmentHistoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:37:08.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DocumentAssignmentDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentAssignmentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\DocumentAssignmentDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentAssignmentDto.cs",
+              "RelativeToolTip": "DTOs\\DocumentAssignmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:36:38.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DocumentActionResultDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentActionResultDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\DocumentActionResultDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentActionResultDto.cs",
+              "RelativeToolTip": "DTOs\\DocumentActionResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:36:15.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ProcessDocumentActionDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\ProcessDocumentActionDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProcessDocumentActionDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\ProcessDocumentActionDto.cs",
+              "RelativeToolTip": "DTOs\\ProcessDocumentActionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:35:50.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AdminDashboardDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminDashboardDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminDashboardDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminDashboardDto.cs",
+              "RelativeToolTip": "DTOs\\AdminDashboardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T19:35:25.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "DocumentService.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\DocumentService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\DocumentService.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\DocumentService.cs",
+              "RelativeToolTip": "SERVICE\\DocumentService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAlwDgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:02:22.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "FileRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\FileRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\FileRepository.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\FileRepository.cs",
+              "RelativeToolTip": "Repository\\FileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:01:13.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "FileValidationDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\FileValidationDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\FileValidationDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\FileValidationDto.cs",
+              "RelativeToolTip": "DTOs\\FileValidationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:08:13.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-19T10:42:30.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DocumentController.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Controllers\\DocumentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DocumentController.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Controllers\\DocumentController.cs",
+              "RelativeToolTip": "Controllers\\DocumentController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:05:59.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ValidationService.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\ValidationService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\ValidationService.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\ValidationService.cs",
+              "RelativeToolTip": "SERVICE\\ValidationService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwEYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:03:10.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "DocumentRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\DocumentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\DocumentRepository.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Repository\\DocumentRepository.cs",
+              "RelativeToolTip": "Repository\\DocumentRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:30:42.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Document.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\Document.cs",
+              "RelativeDocumentMoniker": "Models\\Document.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\Document.cs",
+              "RelativeToolTip": "Models\\Document.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:12:36.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "DocumentType.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\DocumentType.cs",
+              "RelativeDocumentMoniker": "Models\\DocumentType.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\DocumentType.cs",
+              "RelativeToolTip": "Models\\DocumentType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:11:14.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CreateDocumentDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\CreateDocumentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateDocumentDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\CreateDocumentDto.cs",
+              "RelativeToolTip": "DTOs\\CreateDocumentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:03:45.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "DocumentConstants.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\DocumentConstants.cs",
+              "RelativeDocumentMoniker": "Models\\DocumentConstants.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\DocumentConstants.cs",
+              "RelativeToolTip": "Models\\DocumentConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:14:07.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "DocumentActivity.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\DocumentActivity.cs",
+              "RelativeDocumentMoniker": "Models\\DocumentActivity.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\DocumentActivity.cs",
+              "RelativeToolTip": "Models\\DocumentActivity.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwDEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:13:14.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "FileUploadOperationFilter.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\FileUploadOperationFilter.cs",
+              "RelativeDocumentMoniker": "SERVICE\\FileUploadOperationFilter.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\FileUploadOperationFilter.cs",
+              "RelativeToolTip": "SERVICE\\FileUploadOperationFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T16:08:23.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\FileService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\FileService.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\FileService.cs",
+              "RelativeToolTip": "SERVICE\\FileService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:03:52.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "FileUploadResultDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\FileUploadResultDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\FileUploadResultDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\FileUploadResultDto.cs",
+              "RelativeToolTip": "DTOs\\FileUploadResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:06:06.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\DashboardService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\DashboardService.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\SERVICE\\DashboardService.cs",
+              "RelativeToolTip": "SERVICE\\DashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:02:51.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "WorkflowAdmin.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\WorkflowAdmin.cs",
+              "RelativeDocumentMoniker": "Models\\WorkflowAdmin.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\WorkflowAdmin.cs",
+              "RelativeToolTip": "Models\\WorkflowAdmin.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:12:06.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Workflow.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\Workflow.cs",
+              "RelativeDocumentMoniker": "Models\\Workflow.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Models\\Workflow.cs",
+              "RelativeToolTip": "Models\\Workflow.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:11:36.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "WorkflowSearchDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowSearchDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\WorkflowSearchDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\WorkflowSearchDto.cs",
+              "RelativeToolTip": "DTOs\\WorkflowSearchDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:10:27.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "DocumentSearchDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentSearchDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\DocumentSearchDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentSearchDto.cs",
+              "RelativeToolTip": "DTOs\\DocumentSearchDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:10:08.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "DashboardStatsDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DashboardStatsDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\DashboardStatsDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DashboardStatsDto.cs",
+              "RelativeToolTip": "DTOs\\DashboardStatsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:08:35.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "AddDocumentActivityDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AddDocumentActivityDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AddDocumentActivityDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AddDocumentActivityDto.cs",
+              "RelativeToolTip": "DTOs\\AddDocumentActivityDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:05:46.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "DocumentActivityDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentActivityDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\DocumentActivityDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentActivityDto.cs",
+              "RelativeToolTip": "DTOs\\DocumentActivityDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:05:22.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "DocumentDetailDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentDetailDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\DocumentDetailDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\DocumentDetailDto.cs",
+              "RelativeToolTip": "DTOs\\DocumentDetailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:04:58.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "AdminSummaryDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminSummaryDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminSummaryDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\DTOs\\AdminSummaryDto.cs",
+              "RelativeToolTip": "DTOs\\AdminSummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:03:20.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
               "Title": "Workflow \u0026 Document Management System.csproj",
               "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System\\Workflow \u0026 Document Management System\\Workflow \u0026 Document Management System.csproj",
               "RelativeDocumentMoniker": "Workflow \u0026 Document Management System.csproj",

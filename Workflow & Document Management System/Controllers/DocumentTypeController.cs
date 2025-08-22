@@ -14,7 +14,7 @@ namespace Workflow___Document_Management_System.Controllers
         public DocumentTypeController(DocumentTypeService documentTypeService, ValidationService validationService)
         {
             _documentTypeService = documentTypeService;
-            _validationService = validationService;
+            _validationService = validationService;   
         }
 
         [HttpPost("create")]
